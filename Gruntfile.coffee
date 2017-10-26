@@ -24,8 +24,8 @@ module.exports = (grunt) ->
         globalAlias: 'SimditorAutosave'
         deps:
           'default': ['$', 'SimpleModule','Simditor']
-          amd: ['jquery', 'simple-module', 'simditor']
-          cjs: ['jquery', 'simple-module', 'simditor']
+          amd: ['jquery', 'simple-module', 'r-simditor']
+          cjs: ['jquery', 'simple-module', 'r-simditor']
           global:
             items: ['jQuery', 'SimpleModule','Simditor']
             prefix: ''
@@ -34,4 +34,4 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-umd'
 
-  grunt.registerTask 'default', ['coffee', 'umd', 'watch']
+  grunt.registerTask 'default', ['coffee', 'umd']

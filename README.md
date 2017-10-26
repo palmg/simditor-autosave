@@ -1,4 +1,4 @@
-simditor-autosave
+Rsimditor-autosave
 =================
 
 [Simditor](http://simditor.tower.im/) 的官方扩展，运用 HTML5 的 localStorage 技术来自动保存用户输入内容。

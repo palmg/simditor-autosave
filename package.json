@@ -1,19 +1,19 @@
 {
-  "name": "simditor-autosave",
-  "description": "A autosave plugin for Simditor",
+  "name": "rsimditor-autosave",
+  "description": "A autosave plugin for RSimditor",
   "version": "1.1.1",
-  "homepage": "https://github.com/mycolorway/simditor-autosave",
+  "homepage": "https://github.com/palmg/simditor-autosave",
   "author": {
-    "name": "farthinker",
-    "email": "farthinker@gmail.com"
+    "name": "chkui",
+    "email": "chenkui@chkui.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mycolorway/simditor-autosave.git"
+    "url": "git+https://github.com/palmg/simditor-autosave.git"
   },
   "bugs": {
-    "url": "https://github.com/mycolorway/simditor-autosave/issues"
+    "url": "https://github.com/palmg/simditor-autosave/issues"
   },
   "devDependencies": {
     "grunt": "0.x",
